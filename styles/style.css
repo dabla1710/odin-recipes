@@ -1,0 +1,26 @@
+:root {
+    --main-color: #90CF04;
+}
+
+body {
+    width: 80%;
+}
+.description {
+    max-width: 80%;
+}
+
+.footer-home {
+    position: fixed;
+    height: 20px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--main-color);
+    text-align: center;
+    padding: 5px;
+}
+
+.footer-home > a {
+    text-decoration: none;
+    color: white;
+}
