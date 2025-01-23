@@ -2,11 +2,47 @@
     --main-color: #90CF04;
 }
 
-body {
-    width: 80%;
+h1 {
+    text-align: center;
+    border-bottom: 2px solid black;
 }
+
+h3 {
+    border-bottom: 1px solid black;
+}
+
+img {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width:100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 36px;
+    font-weight: 900;
+
+    background-color: var(--main-color);
+}
+
+.content {
+    width: 65%;
+    margin: 0 auto;
+}
+
 .description {
     max-width: 80%;
+    margin: 10px auto;
+    text-align: center;
 }
 
 .footer-home {
