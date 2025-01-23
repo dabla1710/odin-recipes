@@ -60,3 +60,30 @@ img {
     text-decoration: none;
     color: white;
 }
+
+.recipe-list-container {
+    display: flex;
+    justify-content: center;
+}
+
+.recipe-list-container > ul > a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.recipe-list-container > ul > a > li {
+    background-color: #FFF1E6;
+    padding: 10px;
+    margin: 20px 0;
+
+    list-style: none;
+
+    border-radius: 10px;
+    box-shadow: 0.5rem 0.5rem 1.5rem -0.8rem black;
+    transform: translateX(-10%);
+}
+
+.recipe-list-container > ul > a > li:hover {
+    padding: 15px 8px;
+    border: 1px solid black;
+}
